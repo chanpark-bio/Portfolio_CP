@@ -45,3 +45,10 @@ Subsequent phases currently under development aim to bridge computational discov
     PK/PD Considerations: Exploring Fc/HSA fusion modalities for in vivo half-life extension.
 
 Note: This is a sanitized version of the pipeline intended for portfolio demonstration. Proprietary institutional targets, internal data, and specialized hyper-parameters have been removed or set to standard public defaults.
+
+<img width="1920" height="1080" alt="01_chains_colored" src="https://github.com/user-attachments/assets/d731b01b-c8d8-4cee-9571-222487f0f2ba" />
+<img width="1920" height="1080" alt="02_hotspot_highlighted" src="https://github.com/user-attachments/assets/de832b17-ea1e-4dcd-9914-f7c488e5bbb7" />
+<img width="1920" height="1080" alt="03_hydrophobicity_surface" src="https://github.com/user-attachments/assets/4c5bdca2-ab3d-49bf-8ecf-0e8f5490e16b" />
+
+<img width="1000" height="600" alt="rfdiffusion_selection_dot_graph_RUN_20260716_225827" src="https://github.com/user-attachments/assets/cf6a5db5-6973-403e-85f0-3413d0bcba1a" />
+<img width="5400" height="1500" alt="fastqc_metrics_graph_RUN_20260716_230001" src="https://github.com/user-attachments/assets/00ba0366-17b7-43ff-9d8e-2fff385805fc" />
