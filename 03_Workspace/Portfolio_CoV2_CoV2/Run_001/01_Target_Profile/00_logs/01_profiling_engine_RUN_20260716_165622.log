@@ -1,0 +1,589 @@
+=== SCRIPT START: 2026-07-16 16:56:22
+=== SCRIPT END: 2026-07-16 17:06:34 (Duration: 0:10:12.026413) ===
+=== RUN ID: RUN_20260716_165622 | GLOBAL SEED: 42
+=== CONFIG INFO ===
+global_seed: 42
+hotspots:
+- E484
+- E493
+- E501
+project_name: Portfolio_CoV2_CoV2
+target_pdb_id: 6M0J
+
+=================================
+
+HEADER    VIRAL PROTEIN/HYDROLASE                 21-FEB-20   6M0J
+TITLE     CRYSTAL STRUCTURE OF SARS-COV-2 SPIKE RECEPTOR-BINDING DOMAIN BOUND
+TITLE    2 WITH ACE2
+COMPND    MOL_ID: 1;
+COMPND   2 MOLECULE: ANGIOTENSIN-CONVERTING ENZYME 2;
+COMPND   3 CHAIN: A;
+COMPND   4 SYNONYM: ACE-RELATED CARBOXYPEPTIDASE,ANGIOTENSIN-CONVERTING ENZYME
+COMPND   5 HOMOLOG,ACEH,METALLOPROTEASE MPROT15;
+COMPND   6 EC: 3.4.17.23,3.4.17.-;
+COMPND   7 ENGINEERED: YES;
+COMPND   8 MOL_ID: 2;
+COMPND   9 MOLECULE: SPIKE PROTEIN S1;
+COMPND  10 CHAIN: E;
+COMPND  11 SYNONYM: S GLYCOPROTEIN,E2,PEPLOMER PROTEIN,SPIKE RECEPTOR BINDING
+COMPND  12 DOMAIN;
+COMPND  13 ENGINEERED: YES
+ ObjectMolecule: Read secondary structure assignments.
+ ObjectMolecule: Read crystal symmetry information.
+ CmdLoad: "" loaded as "target".
+ Setting: ray_opaque_background set to 0.
+ Setting: cartoon_flat_sheets set to off.
+ Setting: antialias set to 2.
+ Setting: cache_frames set to on.
+ Setting: ray_trace_frames set to off.
+ Executive: Colored 5006 atoms.
+ Executive: Colored 1565 atoms.
+ Ray: render time: 0.68 sec. = 5258.0 frames/hour (0.68 sec. accum.).
+ ScenePNG: wrote 1920x1080 pixel image to file "03_Workspace/Portfolio_CoV2_CoV2/Run_001/01_Target_Profile/02_renders/01_chains_colored.png".
+ Setting: opaque_background set to on.
+ Movie: frame    1 of  120, 0.63 sec. (0:01:16 - 0:01:16 to go).
+ Movie: frame    2 of  120, 0.65 sec. (0:01:16 - 0:01:16 to go).
+ Movie: frame    3 of  120, 0.64 sec. (0:01:15 - 0:01:15 to go).
+ Movie: frame    4 of  120, 0.77 sec. (0:01:30 - 0:01:18 to go).
+ Movie: frame    5 of  120, 0.63 sec. (0:01:13 - 0:01:17 to go).
+ Movie: frame    6 of  120, 0.63 sec. (0:01:12 - 0:01:15 to go).
+ Movie: frame    7 of  120, 0.64 sec. (0:01:12 - 0:01:14 to go).
+ Movie: frame    8 of  120, 0.64 sec. (0:01:12 - 0:01:14 to go).
+ Movie: frame    9 of  120, 0.65 sec. (0:01:12 - 0:01:13 to go).
+ Movie: frame   10 of  120, 0.66 sec. (0:01:13 - 0:01:12 to go).
+ Movie: frame   11 of  120, 0.67 sec. (0:01:14 - 0:01:12 to go).
+ Movie: frame   12 of  120, 0.77 sec. (0:01:23 - 0:01:12 to go).
+ Movie: frame   13 of  120, 0.66 sec. (0:01:11 - 0:01:11 to go).
+ Movie: frame   14 of  120, 0.67 sec. (0:01:11 - 0:01:11 to go).
+ Movie: frame   15 of  120, 0.68 sec. (0:01:11 - 0:01:10 to go).
+ Movie: frame   16 of  120, 0.67 sec. (0:01:10 - 0:01:10 to go).
+ Movie: frame   17 of  120, 0.68 sec. (0:01:10 - 0:01:09 to go).
+ Movie: frame   18 of  120, 0.73 sec. (0:01:15 - 0:01:09 to go).
+ Movie: frame   19 of  120, 0.70 sec. (0:01:11 - 0:01:08 to go).
+ Movie: frame   20 of  120, 0.68 sec. (0:01:08 - 0:01:07 to go).
+ Movie: frame   21 of  120, 0.68 sec. (0:01:07 - 0:01:07 to go).
+ Movie: frame   22 of  120, 0.68 sec. (0:01:07 - 0:01:06 to go).
+ Movie: frame   23 of  120, 0.68 sec. (0:01:07 - 0:01:06 to go).
+ Movie: frame   24 of  120, 0.69 sec. (0:01:06 - 0:01:05 to go).
+ Movie: frame   25 of  120, 0.68 sec. (0:01:05 - 0:01:04 to go).
+ Movie: frame   26 of  120, 0.69 sec. (0:01:05 - 0:01:04 to go).
+ Movie: frame   27 of  120, 0.69 sec. (0:01:05 - 0:01:03 to go).
+ Movie: frame   28 of  120, 0.69 sec. (0:01:04 - 0:01:02 to go).
+ Movie: frame   29 of  120, 0.69 sec. (0:01:03 - 0:01:02 to go).
+ Movie: frame   30 of  120, 0.70 sec. (0:01:03 - 0:01:01 to go).
+ Movie: frame   31 of  120, 0.70 sec. (0:01:03 - 0:01:01 to go).
+ Movie: frame   32 of  120, 0.69 sec. (0:01:01 - 0:01:00 to go).
+ Movie: frame   33 of  120, 0.68 sec. (0:01:00 - 0:00:59 to go).
+ Movie: frame   34 of  120, 0.69 sec. (0:01:00 - 0:00:59 to go).
+ Movie: frame   35 of  120, 0.70 sec. (0:01:00 - 0:00:58 to go).
+ Movie: frame   36 of  120, 0.69 sec. (0:00:58 - 0:00:57 to go).
+ Movie: frame   37 of  120, 0.69 sec. (0:00:58 - 0:00:57 to go).
+ Movie: frame   38 of  120, 0.69 sec. (0:00:57 - 0:00:56 to go).
+ Movie: frame   39 of  120, 0.70 sec. (0:00:56 - 0:00:55 to go).
+ Movie: frame   40 of  120, 0.69 sec. (0:00:55 - 0:00:55 to go).
+ Movie: frame   41 of  120, 0.67 sec. (0:00:53 - 0:00:54 to go).
+ Movie: frame   42 of  120, 0.68 sec. (0:00:53 - 0:00:53 to go).
+ Movie: frame   43 of  120, 0.68 sec. (0:00:53 - 0:00:53 to go).
+ Movie: frame   44 of  120, 0.69 sec. (0:00:52 - 0:00:52 to go).
+ Movie: frame   45 of  120, 0.68 sec. (0:00:51 - 0:00:51 to go).
+ Movie: frame   46 of  120, 0.68 sec. (0:00:51 - 0:00:51 to go).
+ Movie: frame   47 of  120, 0.68 sec. (0:00:50 - 0:00:50 to go).
+ Movie: frame   48 of  120, 0.66 sec. (0:00:48 - 0:00:49 to go).
+ Movie: frame   49 of  120, 0.67 sec. (0:00:48 - 0:00:49 to go).
+ Movie: frame   50 of  120, 0.65 sec. (0:00:46 - 0:00:48 to go).
+ Movie: frame   51 of  120, 0.65 sec. (0:00:45 - 0:00:47 to go).
+ Movie: frame   52 of  120, 0.64 sec. (0:00:44 - 0:00:46 to go).
+ Movie: frame   53 of  120, 0.64 sec. (0:00:43 - 0:00:46 to go).
+ Movie: frame   54 of  120, 0.62 sec. (0:00:41 - 0:00:45 to go).
+ Movie: frame   55 of  120, 0.61 sec. (0:00:40 - 0:00:44 to go).
+ Movie: frame   56 of  120, 0.63 sec. (0:00:40 - 0:00:43 to go).
+ Movie: frame   57 of  120, 0.60 sec. (0:00:38 - 0:00:43 to go).
+ Movie: frame   58 of  120, 0.60 sec. (0:00:37 - 0:00:42 to go).
+ Movie: frame   59 of  120, 0.60 sec. (0:00:37 - 0:00:41 to go).
+ Movie: frame   60 of  120, 0.61 sec. (0:00:37 - 0:00:40 to go).
+ Movie: frame   61 of  120, 0.60 sec. (0:00:36 - 0:00:40 to go).
+ Movie: frame   62 of  120, 0.61 sec. (0:00:35 - 0:00:39 to go).
+ Movie: frame   63 of  120, 0.60 sec. (0:00:35 - 0:00:38 to go).
+ Movie: frame   64 of  120, 0.60 sec. (0:00:34 - 0:00:37 to go).
+ Movie: frame   65 of  120, 0.61 sec. (0:00:33 - 0:00:37 to go).
+ Movie: frame   66 of  120, 0.61 sec. (0:00:33 - 0:00:36 to go).
+ Movie: frame   67 of  120, 0.62 sec. (0:00:33 - 0:00:35 to go).
+ Movie: frame   68 of  120, 0.63 sec. (0:00:33 - 0:00:35 to go).
+ Movie: frame   69 of  120, 0.63 sec. (0:00:32 - 0:00:34 to go).
+ Movie: frame   70 of  120, 0.66 sec. (0:00:33 - 0:00:33 to go).
+ Movie: frame   71 of  120, 0.68 sec. (0:00:34 - 0:00:33 to go).
+ Movie: frame   72 of  120, 0.65 sec. (0:00:31 - 0:00:32 to go).
+ Movie: frame   73 of  120, 0.66 sec. (0:00:31 - 0:00:31 to go).
+ Movie: frame   74 of  120, 0.66 sec. (0:00:30 - 0:00:31 to go).
+ Movie: frame   75 of  120, 0.67 sec. (0:00:30 - 0:00:30 to go).
+ Movie: frame   76 of  120, 0.71 sec. (0:00:31 - 0:00:29 to go).
+ Movie: frame   77 of  120, 0.70 sec. (0:00:30 - 0:00:29 to go).
+ Movie: frame   78 of  120, 0.70 sec. (0:00:30 - 0:00:28 to go).
+ Movie: frame   79 of  120, 0.71 sec. (0:00:29 - 0:00:27 to go).
+ Movie: frame   80 of  120, 0.73 sec. (0:00:30 - 0:00:27 to go).
+ Movie: frame   81 of  120, 0.72 sec. (0:00:28 - 0:00:26 to go).
+ Movie: frame   82 of  120, 0.72 sec. (0:00:28 - 0:00:26 to go).
+ Movie: frame   83 of  120, 0.73 sec. (0:00:27 - 0:00:25 to go).
+ Movie: frame   84 of  120, 0.73 sec. (0:00:26 - 0:00:24 to go).
+ Movie: frame   85 of  120, 0.73 sec. (0:00:26 - 0:00:24 to go).
+ Movie: frame   86 of  120, 0.73 sec. (0:00:25 - 0:00:23 to go).
+ Movie: frame   87 of  120, 0.73 sec. (0:00:24 - 0:00:22 to go).
+ Movie: frame   88 of  120, 0.77 sec. (0:00:25 - 0:00:22 to go).
+ Movie: frame   89 of  120, 0.70 sec. (0:00:22 - 0:00:21 to go).
+ Movie: frame   90 of  120, 0.77 sec. (0:00:23 - 0:00:20 to go).
+ Movie: frame   91 of  120, 0.71 sec. (0:00:21 - 0:00:20 to go).
+ Movie: frame   92 of  120, 0.70 sec. (0:00:20 - 0:00:19 to go).
+ Movie: frame   93 of  120, 0.70 sec. (0:00:19 - 0:00:18 to go).
+ Movie: frame   94 of  120, 0.74 sec. (0:00:20 - 0:00:18 to go).
+ Movie: frame   95 of  120, 0.70 sec. (0:00:18 - 0:00:17 to go).
+ Movie: frame   96 of  120, 0.74 sec. (0:00:18 - 0:00:16 to go).
+ Movie: frame   97 of  120, 0.70 sec. (0:00:16 - 0:00:16 to go).
+ Movie: frame   98 of  120, 0.70 sec. (0:00:16 - 0:00:15 to go).
+ Movie: frame   99 of  120, 0.73 sec. (0:00:16 - 0:00:14 to go).
+ Movie: frame  100 of  120, 0.70 sec. (0:00:14 - 0:00:14 to go).
+ Movie: frame  101 of  120, 0.72 sec. (0:00:14 - 0:00:13 to go).
+ Movie: frame  102 of  120, 0.75 sec. (0:00:14 - 0:00:12 to go).
+ Movie: frame  103 of  120, 0.70 sec. (0:00:12 - 0:00:12 to go).
+ Movie: frame  104 of  120, 0.70 sec. (0:00:11 - 0:00:11 to go).
+ Movie: frame  105 of  120, 0.69 sec. (0:00:11 - 0:00:10 to go).
+ Movie: frame  106 of  120, 0.70 sec. (0:00:10 - 0:00:10 to go).
+ Movie: frame  107 of  120, 0.73 sec. (0:00:10 - 0:00:09 to go).
+ Movie: frame  108 of  120, 0.83 sec. (0:00:10 - 0:00:08 to go).
+ Movie: frame  109 of  120, 0.71 sec. (0:00:08 - 0:00:08 to go).
+ Movie: frame  110 of  120, 0.70 sec. (0:00:07 - 0:00:07 to go).
+ Movie: frame  111 of  120, 0.70 sec. (0:00:07 - 0:00:06 to go).
+ Movie: frame  112 of  120, 0.68 sec. (0:00:06 - 0:00:06 to go).
+ Movie: frame  113 of  120, 0.69 sec. (0:00:05 - 0:00:05 to go).
+ Movie: frame  114 of  120, 0.67 sec. (0:00:04 - 0:00:04 to go).
+ Movie: frame  115 of  120, 0.68 sec. (0:00:04 - 0:00:04 to go).
+ Movie: frame  116 of  120, 0.67 sec. (0:00:03 - 0:00:03 to go).
+ Movie: frame  117 of  120, 0.64 sec. (0:00:02 - 0:00:02 to go).
+ Movie: frame  118 of  120, 0.64 sec. (0:00:01 - 0:00:02 to go).
+ Movie: frame  119 of  120, 0.64 sec. (0:00:01 - 0:00:01 to go).
+ Movie: frame  120 of  120, 0.67 sec. (0:00:00 - 0:00:00 to go).
+ Executive: Colored 6571 atoms and 1 object.
+ Selector: selection "hotspots" defined with 32 atoms.
+ Executive: Colored 32 atoms.
+ Ray: render time: 0.60 sec. = 6022.4 frames/hour (76.90 sec. accum.).
+ ScenePNG: wrote 1920x1080 pixel image to file "03_Workspace/Portfolio_CoV2_CoV2/Run_001/01_Target_Profile/02_renders/02_hotspot_highlighted.png".
+ Setting: opaque_background set to on.
+ Movie: frame    1 of  120, 0.65 sec. (0:01:18 - 0:01:18 to go).
+ Movie: frame    2 of  120, 0.64 sec. (0:01:16 - 0:01:17 to go).
+ Movie: frame    3 of  120, 0.65 sec. (0:01:16 - 0:01:16 to go).
+ Movie: frame    4 of  120, 0.64 sec. (0:01:15 - 0:01:15 to go).
+ Movie: frame    5 of  120, 0.65 sec. (0:01:14 - 0:01:15 to go).
+ Movie: frame    6 of  120, 0.65 sec. (0:01:14 - 0:01:14 to go).
+ Movie: frame    7 of  120, 0.64 sec. (0:01:13 - 0:01:13 to go).
+ Movie: frame    8 of  120, 0.66 sec. (0:01:14 - 0:01:13 to go).
+ Movie: frame    9 of  120, 0.66 sec. (0:01:13 - 0:01:12 to go).
+ Movie: frame   10 of  120, 0.67 sec. (0:01:14 - 0:01:12 to go).
+ Movie: frame   11 of  120, 0.67 sec. (0:01:14 - 0:01:11 to go).
+ Movie: frame   12 of  120, 0.68 sec. (0:01:13 - 0:01:11 to go).
+ Movie: frame   13 of  120, 0.66 sec. (0:01:11 - 0:01:10 to go).
+ Movie: frame   14 of  120, 0.68 sec. (0:01:12 - 0:01:10 to go).
+ Movie: frame   15 of  120, 0.68 sec. (0:01:11 - 0:01:09 to go).
+ Movie: frame   16 of  120, 0.69 sec. (0:01:12 - 0:01:09 to go).
+ Movie: frame   17 of  120, 0.69 sec. (0:01:11 - 0:01:08 to go).
+ Movie: frame   18 of  120, 0.69 sec. (0:01:10 - 0:01:08 to go).
+ Movie: frame   19 of  120, 0.69 sec. (0:01:10 - 0:01:07 to go).
+ Movie: frame   20 of  120, 0.69 sec. (0:01:09 - 0:01:07 to go).
+ Movie: frame   21 of  120, 0.69 sec. (0:01:08 - 0:01:06 to go).
+ Movie: frame   22 of  120, 0.69 sec. (0:01:07 - 0:01:06 to go).
+ Movie: frame   23 of  120, 0.69 sec. (0:01:07 - 0:01:05 to go).
+ Movie: frame   24 of  120, 0.69 sec. (0:01:07 - 0:01:05 to go).
+ Movie: frame   25 of  120, 0.68 sec. (0:01:05 - 0:01:04 to go).
+ Movie: frame   26 of  120, 0.68 sec. (0:01:04 - 0:01:03 to go).
+ Movie: frame   27 of  120, 0.70 sec. (0:01:06 - 0:01:03 to go).
+ Movie: frame   28 of  120, 0.69 sec. (0:01:04 - 0:01:02 to go).
+ Movie: frame   29 of  120, 0.70 sec. (0:01:04 - 0:01:02 to go).
+ Movie: frame   30 of  120, 0.71 sec. (0:01:04 - 0:01:01 to go).
+ Movie: frame   31 of  120, 0.70 sec. (0:01:02 - 0:01:00 to go).
+ Movie: frame   32 of  120, 0.69 sec. (0:01:01 - 0:01:00 to go).
+ Movie: frame   33 of  120, 0.70 sec. (0:01:01 - 0:00:59 to go).
+ Movie: frame   34 of  120, 0.69 sec. (0:01:00 - 0:00:58 to go).
+ Movie: frame   35 of  120, 0.70 sec. (0:01:00 - 0:00:58 to go).
+ Movie: frame   36 of  120, 0.70 sec. (0:00:59 - 0:00:57 to go).
+ Movie: frame   37 of  120, 0.69 sec. (0:00:57 - 0:00:57 to go).
+ Movie: frame   38 of  120, 0.69 sec. (0:00:57 - 0:00:56 to go).
+ Movie: frame   39 of  120, 0.69 sec. (0:00:56 - 0:00:55 to go).
+ Movie: frame   40 of  120, 0.71 sec. (0:00:57 - 0:00:55 to go).
+ Movie: frame   41 of  120, 0.68 sec. (0:00:54 - 0:00:54 to go).
+ Movie: frame   42 of  120, 0.68 sec. (0:00:53 - 0:00:53 to go).
+ Movie: frame   43 of  120, 0.68 sec. (0:00:52 - 0:00:53 to go).
+ Movie: frame   44 of  120, 0.68 sec. (0:00:52 - 0:00:52 to go).
+ Movie: frame   45 of  120, 0.68 sec. (0:00:52 - 0:00:51 to go).
+ Movie: frame   46 of  120, 0.67 sec. (0:00:50 - 0:00:51 to go).
+ Movie: frame   47 of  120, 0.67 sec. (0:00:49 - 0:00:50 to go).
+ Movie: frame   48 of  120, 0.66 sec. (0:00:48 - 0:00:49 to go).
+ Movie: frame   49 of  120, 0.66 sec. (0:00:47 - 0:00:48 to go).
+ Movie: frame   50 of  120, 0.66 sec. (0:00:46 - 0:00:48 to go).
+ Movie: frame   51 of  120, 0.68 sec. (0:00:47 - 0:00:47 to go).
+ Movie: frame   52 of  120, 0.65 sec. (0:00:44 - 0:00:46 to go).
+ Movie: frame   53 of  120, 0.63 sec. (0:00:42 - 0:00:46 to go).
+ Movie: frame   54 of  120, 0.62 sec. (0:00:41 - 0:00:45 to go).
+ Movie: frame   55 of  120, 0.61 sec. (0:00:40 - 0:00:44 to go).
+ Movie: frame   56 of  120, 0.61 sec. (0:00:39 - 0:00:43 to go).
+ Movie: frame   57 of  120, 0.60 sec. (0:00:38 - 0:00:43 to go).
+ Movie: frame   58 of  120, 0.64 sec. (0:00:40 - 0:00:42 to go).
+ Movie: frame   59 of  120, 0.61 sec. (0:00:37 - 0:00:41 to go).
+ Movie: frame   60 of  120, 0.61 sec. (0:00:37 - 0:00:40 to go).
+ Movie: frame   61 of  120, 0.68 sec. (0:00:40 - 0:00:40 to go).
+ Movie: frame   62 of  120, 0.61 sec. (0:00:35 - 0:00:39 to go).
+ Movie: frame   63 of  120, 0.60 sec. (0:00:35 - 0:00:38 to go).
+ Movie: frame   64 of  120, 0.62 sec. (0:00:35 - 0:00:38 to go).
+ Movie: frame   65 of  120, 0.61 sec. (0:00:34 - 0:00:37 to go).
+ Movie: frame   66 of  120, 0.62 sec. (0:00:34 - 0:00:36 to go).
+ Movie: frame   67 of  120, 0.63 sec. (0:00:33 - 0:00:35 to go).
+ Movie: frame   68 of  120, 0.71 sec. (0:00:37 - 0:00:35 to go).
+ Movie: frame   69 of  120, 0.63 sec. (0:00:32 - 0:00:34 to go).
+ Movie: frame   70 of  120, 0.65 sec. (0:00:32 - 0:00:33 to go).
+ Movie: frame   71 of  120, 0.67 sec. (0:00:33 - 0:00:33 to go).
+ Movie: frame   72 of  120, 0.64 sec. (0:00:31 - 0:00:32 to go).
+ Movie: frame   73 of  120, 0.65 sec. (0:00:31 - 0:00:31 to go).
+ Movie: frame   74 of  120, 0.66 sec. (0:00:31 - 0:00:31 to go).
+ Movie: frame   75 of  120, 0.72 sec. (0:00:33 - 0:00:30 to go).
+ Movie: frame   76 of  120, 0.75 sec. (0:00:33 - 0:00:29 to go).
+ Movie: frame   77 of  120, 0.70 sec. (0:00:30 - 0:00:29 to go).
+ Movie: frame   78 of  120, 0.70 sec. (0:00:30 - 0:00:28 to go).
+ Movie: frame   79 of  120, 0.73 sec. (0:00:30 - 0:00:28 to go).
+ Movie: frame   80 of  120, 0.72 sec. (0:00:29 - 0:00:27 to go).
+ Movie: frame   81 of  120, 0.73 sec. (0:00:29 - 0:00:26 to go).
+ Movie: frame   82 of  120, 0.80 sec. (0:00:31 - 0:00:26 to go).
+ Movie: frame   83 of  120, 0.76 sec. (0:00:28 - 0:00:25 to go).
+ Movie: frame   84 of  120, 0.73 sec. (0:00:27 - 0:00:24 to go).
+ Movie: frame   85 of  120, 0.73 sec. (0:00:26 - 0:00:24 to go).
+ Movie: frame   86 of  120, 0.77 sec. (0:00:26 - 0:00:23 to go).
+ Movie: frame   87 of  120, 0.74 sec. (0:00:25 - 0:00:22 to go).
+ Movie: frame   88 of  120, 0.73 sec. (0:00:24 - 0:00:22 to go).
+ Movie: frame   89 of  120, 0.84 sec. (0:00:26 - 0:00:21 to go).
+ Movie: frame   90 of  120, 0.71 sec. (0:00:21 - 0:00:21 to go).
+ Movie: frame   91 of  120, 0.71 sec. (0:00:21 - 0:00:20 to go).
+ Movie: frame   92 of  120, 0.70 sec. (0:00:20 - 0:00:19 to go).
+ Movie: frame   93 of  120, 0.72 sec. (0:00:20 - 0:00:19 to go).
+ Movie: frame   94 of  120, 0.71 sec. (0:00:19 - 0:00:18 to go).
+ Movie: frame   95 of  120, 0.69 sec. (0:00:18 - 0:00:17 to go).
+ Movie: frame   96 of  120, 0.70 sec. (0:00:17 - 0:00:16 to go).
+ Movie: frame   97 of  120, 0.70 sec. (0:00:16 - 0:00:16 to go).
+ Movie: frame   98 of  120, 0.71 sec. (0:00:16 - 0:00:15 to go).
+ Movie: frame   99 of  120, 0.71 sec. (0:00:15 - 0:00:14 to go).
+ Movie: frame  100 of  120, 0.71 sec. (0:00:14 - 0:00:14 to go).
+ Movie: frame  101 of  120, 0.71 sec. (0:00:14 - 0:00:13 to go).
+ Movie: frame  102 of  120, 0.71 sec. (0:00:13 - 0:00:12 to go).
+ Movie: frame  103 of  120, 0.71 sec. (0:00:12 - 0:00:12 to go).
+ Movie: frame  104 of  120, 0.70 sec. (0:00:11 - 0:00:11 to go).
+ Movie: frame  105 of  120, 0.70 sec. (0:00:11 - 0:00:10 to go).
+ Movie: frame  106 of  120, 0.69 sec. (0:00:10 - 0:00:10 to go).
+ Movie: frame  107 of  120, 0.72 sec. (0:00:10 - 0:00:09 to go).
+ Movie: frame  108 of  120, 0.70 sec. (0:00:09 - 0:00:08 to go).
+ Movie: frame  109 of  120, 0.70 sec. (0:00:08 - 0:00:08 to go).
+ Movie: frame  110 of  120, 0.70 sec. (0:00:07 - 0:00:07 to go).
+ Movie: frame  111 of  120, 0.69 sec. (0:00:06 - 0:00:06 to go).
+ Movie: frame  112 of  120, 0.69 sec. (0:00:06 - 0:00:06 to go).
+ Movie: frame  113 of  120, 0.68 sec. (0:00:05 - 0:00:05 to go).
+ Movie: frame  114 of  120, 0.67 sec. (0:00:04 - 0:00:04 to go).
+ Movie: frame  115 of  120, 0.68 sec. (0:00:04 - 0:00:04 to go).
+ Movie: frame  116 of  120, 0.68 sec. (0:00:03 - 0:00:03 to go).
+ Movie: frame  117 of  120, 0.65 sec. (0:00:02 - 0:00:02 to go).
+ Movie: frame  118 of  120, 0.64 sec. (0:00:01 - 0:00:02 to go).
+ Movie: frame  119 of  120, 0.64 sec. (0:00:01 - 0:00:01 to go).
+ Movie: frame  120 of  120, 0.64 sec. (0:00:00 - 0:00:00 to go).
+PyMOL>load 03_Workspace/Portfolio_CoV2_CoV2/Run_001/01_Target_Profile/01_raw_pdb/6M0J_raw.pdb, target
+PyMOL>hide all; show cartoon, target
+PyMOL>bg_color white; set ray_opaque_background, off
+PyMOL>set cartoon_flat_sheets, 0
+PyMOL>viewport 1920, 1080
+PyMOL>zoom target, buffer=10.0
+PyMOL>set antialias, 2
+PyMOL>mset 1 x120
+PyMOL>util.mroll 1, 120, 1
+PyMOL>set cache_frames, 1
+PyMOL>set ray_trace_frames, 0
+PyMOL>color palecyan, chain A
+PyMOL>color paleyellow, chain B
+PyMOL>color lightpink, chain C
+PyMOL>color palegreen, chain D
+PyMOL>color gray70, (not chain A+B+C+D)
+PyMOL>png 03_Workspace/Portfolio_CoV2_CoV2/Run_001/01_Target_Profile/02_renders/01_chains_colored.png, dpi=600, ray=1
+PyMOL>movie.produce 03_Workspace/Portfolio_CoV2_CoV2/Run_001/01_Target_Profile/02_renders/01_chains_colored.mp4, quality=100
+using encoder "ffmpeg"
+ffmpeg version 6.1.1-3ubuntu5 Copyright (c) 2000-2023 the FFmpeg developers
+  built with gcc 13 (Ubuntu 13.2.0-23ubuntu3)
+  configuration: --prefix=/usr --extra-version=3ubuntu5 --toolchain=hardened --libdir=/usr/lib/x86_64-linux-gnu --incdir=/usr/include/x86_64-linux-gnu --arch=amd64 --enable-gpl --disable-stripping --disable-omx --enable-gnutls --enable-libaom --enable-libass --enable-libbs2b --enable-libcaca --enable-libcdio --enable-libcodec2 --enable-libdav1d --enable-libflite --enable-libfontconfig --enable-libfreetype --enable-libfribidi --enable-libglslang --enable-libgme --enable-libgsm --enable-libharfbuzz --enable-libmp3lame --enable-libmysofa --enable-libopenjpeg --enable-libopenmpt --enable-libopus --enable-librubberband --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libtheora --enable-libtwolame --enable-libvidstab --enable-libvorbis --enable-libvpx --enable-libwebp --enable-libx265 --enable-libxml2 --enable-libxvid --enable-libzimg --enable-openal --enable-opencl --enable-opengl --disable-sndio --enable-libvpl --disable-libmfx --enable-libdc1394 --enable-libdrm --enable-libiec61883 --enable-chromaprint --enable-frei0r --enable-ladspa --enable-libbluray --enable-libjack --enable-libpulse --enable-librabbitmq --enable-librist --enable-libsrt --enable-libssh --enable-libsvtav1 --enable-libx264 --enable-libzmq --enable-libzvbi --enable-lv2 --enable-sdl2 --enable-libplacebo --enable-librav1e --enable-pocketsphinx --enable-librsvg --enable-libjxl --enable-shared
+  libavutil      58. 29.100 / 58. 29.100
+  libavcodec     60. 31.102 / 60. 31.102
+  libavformat    60. 16.100 / 60. 16.100
+  libavdevice    60.  3.100 / 60.  3.100
+  libavfilter     9. 12.100 /  9. 12.100
+  libswscale      7.  5.100 /  7.  5.100
+  libswresample   4. 12.100 /  4. 12.100
+  libpostproc    57.  3.100 / 57.  3.100
+Input #0, image2, from 'mov%04d.png':
+  Duration: 00:00:04.00, start: 0.000000, bitrate: N/A
+  Stream #0:0: Video: png, rgba(pc, gbr/unknown/unknown), 1920x1080, 30 fps, 30 tbr, 30 tbn
+Stream mapping:
+  Stream #0:0 -> #0:0 (png (native) -> h264 (libx264))
+Press [q] to stop, [?] for help
+[libx264 @ 0x5daeb724d800] using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX FMA3 BMI2 AVX2 AVX512
+[libx264 @ 0x5daeb724d800] profile High, level 4.0, 4:2:0, 8-bit
+[libx264 @ 0x5daeb724d800] 264 - core 164 r3108 31e19f9 - H.264/MPEG-4 AVC codec - Copyleft 2003-2023 - http://www.videolan.org/x264.html - options: cabac=1 ref=3 deblock=1:0:0 analyse=0x3:0x113 me=hex subme=7 psy=1 psy_rd=1.00:0.00 mixed_ref=1 me_range=16 chroma_me=1 trellis=1 8x8dct=1 cqm=0 deadzone=21,11 fast_pskip=1 chroma_qp_offset=-2 threads=34 lookahead_threads=5 sliced_threads=0 nr=0 decimate=1 interlaced=0 bluray_compat=0 constrained_intra=0 bframes=3 b_pyramid=2 b_adapt=1 b_bias=0 direct=1 weightb=1 open_gop=0 weightp=2 keyint=250 keyint_min=25 scenecut=40 intra_refresh=0 rc_lookahead=40 rc=crf mbtree=1 crf=10.0 qcomp=0.60 qpmin=0 qpmax=69 qpstep=4 ip_ratio=1.40 aq=1:1.00
+Output #0, mp4, to '../01_chains_colored.mp4':
+  Metadata:
+    encoder         : Lavf60.16.100
+  Stream #0:0: Video: h264 (avc1 / 0x31637661), yuv420p(tv, progressive), 1920x1080, q=2-31, 30 fps, 15360 tbn
+    Metadata:
+      encoder         : Lavc60.31.102 libx264
+    Side data:
+      cpb: bitrate max/min/avg: 0/0/0 buffer size: 0 vbv_delay: N/A
+frame=    0 fps=0.0 q=0.0 size=       0kB time=N/A bitrate=N/A speed=N/A    
+frame=   42 fps=0.0 q=16.0 size=    2048kB time=00:00:01.30 bitrate=12905.8kbits/s speed=2.39x    
+[out#0/mp4 @ 0x5daeb724c300] video:6411kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.036027%
+frame=  120 fps=0.0 q=-1.0 Lsize=    6413kB time=00:00:03.90 bitrate=13470.6kbits/s speed=5.85x    
+[libx264 @ 0x5daeb724d800] frame I:1     Avg QP: 1.37  size: 57005
+[libx264 @ 0x5daeb724d800] frame P:30    Avg QP: 9.26  size: 66823
+[libx264 @ 0x5daeb724d800] frame B:89    Avg QP:13.96  size: 50586
+[libx264 @ 0x5daeb724d800] consecutive B-frames:  0.8%  0.0%  2.5% 96.7%
+[libx264 @ 0x5daeb724d800] mb I  I16..4: 92.9%  0.1%  7.0%
+[libx264 @ 0x5daeb724d800] mb P  I16..4:  6.7%  0.1%  6.2%  P16..4:  1.3%  1.1%  1.5%  0.0%  0.0%    skip:83.2%
+[libx264 @ 0x5daeb724d800] mb B  I16..4:  0.0%  0.0%  1.8%  B16..8:  1.5%  2.0%  4.4%  direct: 0.4%  skip:89.9%  L0:36.0% L1:32.3% BI:31.7%
+[libx264 @ 0x5daeb724d800] 8x8 transform intra:0.6% inter:3.1%
+[libx264 @ 0x5daeb724d800] coded y,uvDC,uvAC intra: 51.9% 46.7% 46.2% inter: 4.8% 3.1% 2.1%
+[libx264 @ 0x5daeb724d800] i16 v,h,dc,p: 98%  1%  1%  0%
+[libx264 @ 0x5daeb724d800] i8 v,h,dc,ddl,ddr,vr,hd,vl,hu: 17% 12% 32%  6%  5%  7%  7%  7%  8%
+[libx264 @ 0x5daeb724d800] i4 v,h,dc,ddl,ddr,vr,hd,vl,hu: 16% 13% 11%  8% 10% 11% 10% 11% 10%
+[libx264 @ 0x5daeb724d800] i8c dc,h,v,p: 76%  8%  9%  7%
+[libx264 @ 0x5daeb724d800] Weighted P-Frames: Y:16.7% UV:6.7%
+[libx264 @ 0x5daeb724d800] ref P L0: 56.4% 12.1% 19.6% 10.2%  1.6%
+[libx264 @ 0x5daeb724d800] ref B L0: 88.5%  9.1%  2.4%
+[libx264 @ 0x5daeb724d800] ref B L1: 96.1%  3.9%
+[libx264 @ 0x5daeb724d800] kb/s:13127.75
+ produce: finished.
+PyMOL>color gray80, target
+PyMOL>select hotspots, (chain E and resi 484) or (chain E and resi 493) or (chain E and resi 501)
+PyMOL>color tv_red, hotspots
+PyMOL>png 03_Workspace/Portfolio_CoV2_CoV2/Run_001/01_Target_Profile/02_renders/02_hotspot_highlighted.png, dpi=600, ray=1
+PyMOL>movie.produce 03_Workspace/Portfolio_CoV2_CoV2/Run_001/01_Target_Profile/02_renders/02_hotspot_highlighted.mp4, quality=100
+using encoder "ffmpeg"
+ Alter: modified 6571 atoms.
+ Alter: modified 232 atoms.
+ Alter: modified 329 atoms.
+ Alter: modified 584 atoms.
+ Alter: modified 451 atoms.
+ Alter: modified 96 atoms.
+ Alter: modified 168 atoms.
+ Alter: modified 250 atoms.
+ Alter: modified 188 atoms.
+ Alter: modified 301 atoms.
+ Alter: modified 294 atoms.
+ Alter: modified 308 atoms.
+ Alter: modified 516 atoms.
+ Alter: modified 259 atoms.
+ Alter: modified 177 atoms.
+ Alter: modified 477 atoms.
+ Alter: modified 330 atoms.
+ Alter: modified 336 atoms.
+ Alter: modified 448 atoms.
+ Alter: modified 378 atoms.
+ Alter: modified 297 atoms.
+ Spectrum: range (-4.50000 to  4.50000).
+ Setting: transparency set to 0.20000.
+ Ray: render time: 4.66 sec. = 772.1 frames/hour (157.37 sec. accum.).
+ ScenePNG: wrote 1920x1080 pixel image to file "03_Workspace/Portfolio_CoV2_CoV2/Run_001/01_Target_Profile/02_renders/03_hydrophobicity_surface.png".
+ Setting: opaque_background set to on.
+ Movie: frame    1 of  120, 4.20 sec. (0:08:23 - 0:08:23 to go).
+ Movie: frame    2 of  120, 4.16 sec. (0:08:14 - 0:08:17 to go).
+ Movie: frame    3 of  120, 4.12 sec. (0:08:05 - 0:08:10 to go).
+ Movie: frame    4 of  120, 4.11 sec. (0:08:01 - 0:08:05 to go).
+ Movie: frame    5 of  120, 4.13 sec. (0:07:59 - 0:08:00 to go).
+ Movie: frame    6 of  120, 4.06 sec. (0:07:46 - 0:07:54 to go).
+ Movie: frame    7 of  120, 4.02 sec. (0:07:38 - 0:07:48 to go).
+ Movie: frame    8 of  120, 3.97 sec. (0:07:28 - 0:07:42 to go).
+ Movie: frame    9 of  120, 4.02 sec. (0:07:30 - 0:07:37 to go).
+ Movie: frame   10 of  120, 3.95 sec. (0:07:18 - 0:07:32 to go).
+ Movie: frame   11 of  120, 3.85 sec. (0:07:03 - 0:07:25 to go).
+ Movie: frame   12 of  120, 3.90 sec. (0:07:04 - 0:07:20 to go).
+ Movie: frame   13 of  120, 3.78 sec. (0:06:47 - 0:07:14 to go).
+ Movie: frame   14 of  120, 3.93 sec. (0:07:00 - 0:07:09 to go).
+ Movie: frame   15 of  120, 3.89 sec. (0:06:52 - 0:07:04 to go).
+ Movie: frame   16 of  120, 3.77 sec. (0:06:35 - 0:06:59 to go).
+ Movie: frame   17 of  120, 4.13 sec. (0:07:09 - 0:06:55 to go).
+ Movie: frame   18 of  120, 3.75 sec. (0:06:26 - 0:06:50 to go).
+ Movie: frame   19 of  120, 3.87 sec. (0:06:34 - 0:06:45 to go).
+ Movie: frame   20 of  120, 3.92 sec. (0:06:36 - 0:06:41 to go).
+ Movie: frame   21 of  120, 3.93 sec. (0:06:33 - 0:06:37 to go).
+ Movie: frame   22 of  120, 3.64 sec. (0:06:00 - 0:06:31 to go).
+ Movie: frame   23 of  120, 3.69 sec. (0:06:01 - 0:06:26 to go).
+ Movie: frame   24 of  120, 3.59 sec. (0:05:48 - 0:06:21 to go).
+ Movie: frame   25 of  120, 3.67 sec. (0:05:52 - 0:06:16 to go).
+ Movie: frame   26 of  120, 3.71 sec. (0:05:51 - 0:06:11 to go).
+ Movie: frame   27 of  120, 3.61 sec. (0:05:39 - 0:06:06 to go).
+ Movie: frame   28 of  120, 3.57 sec. (0:05:32 - 0:06:01 to go).
+ Movie: frame   29 of  120, 3.65 sec. (0:05:35 - 0:05:57 to go).
+ Movie: frame   30 of  120, 3.71 sec. (0:05:37 - 0:05:52 to go).
+ Movie: frame   31 of  120, 3.69 sec. (0:05:32 - 0:05:48 to go).
+ Movie: frame   32 of  120, 3.65 sec. (0:05:25 - 0:05:43 to go).
+ Movie: frame   33 of  120, 3.65 sec. (0:05:20 - 0:05:39 to go).
+ Movie: frame   34 of  120, 3.65 sec. (0:05:17 - 0:05:35 to go).
+ Movie: frame   35 of  120, 3.60 sec. (0:05:09 - 0:05:30 to go).
+ Movie: frame   36 of  120, 3.57 sec. (0:05:03 - 0:05:26 to go).
+ Movie: frame   37 of  120, 3.56 sec. (0:04:59 - 0:05:21 to go).
+ Movie: frame   38 of  120, 3.50 sec. (0:04:50 - 0:05:17 to go).
+ Movie: frame   39 of  120, 3.52 sec. (0:04:48 - 0:05:12 to go).
+ Movie: frame   40 of  120, 3.59 sec. (0:04:50 - 0:05:08 to go).
+ Movie: frame   41 of  120, 3.54 sec. (0:04:42 - 0:05:04 to go).
+ Movie: frame   42 of  120, 3.47 sec. (0:04:34 - 0:04:59 to go).
+ Movie: frame   43 of  120, 3.45 sec. (0:04:28 - 0:04:55 to go).
+ Movie: frame   44 of  120, 3.60 sec. (0:04:37 - 0:04:51 to go).
+ Movie: frame   45 of  120, 3.52 sec. (0:04:27 - 0:04:46 to go).
+ Movie: frame   46 of  120, 3.71 sec. (0:04:37 - 0:04:42 to go).
+ Movie: frame   47 of  120, 3.51 sec. (0:04:19 - 0:04:38 to go).
+ Movie: frame   48 of  120, 3.48 sec. (0:04:13 - 0:04:34 to go).
+ Movie: frame   49 of  120, 3.65 sec. (0:04:22 - 0:04:30 to go).
+ Movie: frame   50 of  120, 3.55 sec. (0:04:12 - 0:04:26 to go).
+ Movie: frame   51 of  120, 3.51 sec. (0:04:05 - 0:04:22 to go).
+ Movie: frame   52 of  120, 3.54 sec. (0:04:04 - 0:04:18 to go).
+ Movie: frame   53 of  120, 3.50 sec. (0:03:57 - 0:04:14 to go).
+ Movie: frame   54 of  120, 3.38 sec. (0:03:46 - 0:04:10 to go).
+ Movie: frame   55 of  120, 3.43 sec. (0:03:46 - 0:04:06 to go).
+ Movie: frame   56 of  120, 3.40 sec. (0:03:40 - 0:04:02 to go).
+ Movie: frame   57 of  120, 3.38 sec. (0:03:36 - 0:03:57 to go).
+ Movie: frame   58 of  120, 3.37 sec. (0:03:32 - 0:03:53 to go).
+ Movie: frame   59 of  120, 3.37 sec. (0:03:29 - 0:03:49 to go).
+ Movie: frame   60 of  120, 3.41 sec. (0:03:27 - 0:03:45 to go).
+ Movie: frame   61 of  120, 3.45 sec. (0:03:27 - 0:03:41 to go).
+ Movie: frame   62 of  120, 3.37 sec. (0:03:18 - 0:03:37 to go).
+ Movie: frame   63 of  120, 3.37 sec. (0:03:15 - 0:03:33 to go).
+ Movie: frame   64 of  120, 3.43 sec. (0:03:15 - 0:03:29 to go).
+ Movie: frame   65 of  120, 3.51 sec. (0:03:16 - 0:03:26 to go).
+ Movie: frame   66 of  120, 3.37 sec. (0:03:05 - 0:03:22 to go).
+ Movie: frame   67 of  120, 3.47 sec. (0:03:07 - 0:03:18 to go).
+ Movie: frame   68 of  120, 3.52 sec. (0:03:06 - 0:03:14 to go).
+ Movie: frame   69 of  120, 3.56 sec. (0:03:05 - 0:03:10 to go).
+ Movie: frame   70 of  120, 3.59 sec. (0:03:03 - 0:03:06 to go).
+ Movie: frame   71 of  120, 3.56 sec. (0:02:57 - 0:03:03 to go).
+ Movie: frame   72 of  120, 3.50 sec. (0:02:51 - 0:02:59 to go).
+ Movie: frame   73 of  120, 3.58 sec. (0:02:51 - 0:02:55 to go).
+ Movie: frame   74 of  120, 3.59 sec. (0:02:48 - 0:02:52 to go).
+ Movie: frame   75 of  120, 3.56 sec. (0:02:43 - 0:02:48 to go).
+ Movie: frame   76 of  120, 3.55 sec. (0:02:39 - 0:02:44 to go).
+ Movie: frame   77 of  120, 3.64 sec. (0:02:40 - 0:02:40 to go).
+ Movie: frame   78 of  120, 3.50 sec. (0:02:30 - 0:02:37 to go).
+ Movie: frame   79 of  120, 3.52 sec. (0:02:27 - 0:02:33 to go).
+ Movie: frame   80 of  120, 3.57 sec. (0:02:26 - 0:02:29 to go).
+ Movie: frame   81 of  120, 3.61 sec. (0:02:24 - 0:02:26 to go).
+ Movie: frame   82 of  120, 3.76 sec. (0:02:26 - 0:02:22 to go).
+ Movie: frame   83 of  120, 3.70 sec. (0:02:20 - 0:02:18 to go).
+ Movie: frame   84 of  120, 3.61 sec. (0:02:13 - 0:02:15 to go).
+ Movie: frame   85 of  120, 3.66 sec. (0:02:11 - 0:02:11 to go).
+ Movie: frame   86 of  120, 3.61 sec. (0:02:06 - 0:02:07 to go).
+ Movie: frame   87 of  120, 3.56 sec. (0:02:00 - 0:02:04 to go).
+ Movie: frame   88 of  120, 3.58 sec. (0:01:58 - 0:02:00 to go).
+ Movie: frame   89 of  120, 3.50 sec. (0:01:52 - 0:01:56 to go).
+ Movie: frame   90 of  120, 3.51 sec. (0:01:48 - 0:01:53 to go).
+ Movie: frame   91 of  120, 3.48 sec. (0:01:44 - 0:01:49 to go).
+ Movie: frame   92 of  120, 3.50 sec. (0:01:41 - 0:01:45 to go).
+ Movie: frame   93 of  120, 3.48 sec. (0:01:37 - 0:01:42 to go).
+ Movie: frame   94 of  120, 3.47 sec. (0:01:33 - 0:01:38 to go).
+ Movie: frame   95 of  120, 3.48 sec. (0:01:30 - 0:01:34 to go).
+ Movie: frame   96 of  120, 3.47 sec. (0:01:26 - 0:01:30 to go).
+ Movie: frame   97 of  120, 3.55 sec. (0:01:25 - 0:01:27 to go).
+ Movie: frame   98 of  120, 3.50 sec. (0:01:20 - 0:01:23 to go).
+ Movie: frame   99 of  120, 3.49 sec. (0:01:16 - 0:01:19 to go).
+ Movie: frame  100 of  120, 3.46 sec. (0:01:12 - 0:01:16 to go).
+ Movie: frame  101 of  120, 3.44 sec. (0:01:08 - 0:01:12 to go).
+ Movie: frame  102 of  120, 3.53 sec. (0:01:07 - 0:01:08 to go).
+ Movie: frame  103 of  120, 3.59 sec. (0:01:04 - 0:01:05 to go).
+ Movie: frame  104 of  120, 3.47 sec. (0:00:58 - 0:01:01 to go).
+ Movie: frame  105 of  120, 3.49 sec. (0:00:55 - 0:00:58 to go).
+ Movie: frame  106 of  120, 3.48 sec. (0:00:52 - 0:00:54 to go).
+ Movie: frame  107 of  120, 3.51 sec. (0:00:49 - 0:00:50 to go).
+ Movie: frame  108 of  120, 3.54 sec. (0:00:46 - 0:00:47 to go).
+ Movie: frame  109 of  120, 3.60 sec. (0:00:43 - 0:00:43 to go).
+ Movie: frame  110 of  120, 3.60 sec. (0:00:39 - 0:00:39 to go).
+ Movie: frame  111 of  120, 3.71 sec. (0:00:37 - 0:00:36 to go).
+ Movie: frame  112 of  120, 3.68 sec. (0:00:33 - 0:00:32 to go).
+ Movie: frame  113 of  120, 3.74 sec. (0:00:29 - 0:00:28 to go).
+ Movie: frame  114 of  120, 3.80 sec. (0:00:26 - 0:00:25 to go).
+ Movie: frame  115 of  120, 3.92 sec. (0:00:23 - 0:00:21 to go).
+ Movie: frame  116 of  120, 3.94 sec. (0:00:19 - 0:00:18 to go).
+ Movie: frame  117 of  120, 3.98 sec. (0:00:15 - 0:00:14 to go).
+ Movie: frame  118 of  120, 4.23 sec. (0:00:12 - 0:00:10 to go).
+ Movie: frame  119 of  120, 4.19 sec. (0:00:08 - 0:00:07 to go).
+ Movie: frame  120 of  120, 4.17 sec. (0:00:04 - 0:00:03 to go).
+ffmpeg version 6.1.1-3ubuntu5 Copyright (c) 2000-2023 the FFmpeg developers
+  built with gcc 13 (Ubuntu 13.2.0-23ubuntu3)
+  configuration: --prefix=/usr --extra-version=3ubuntu5 --toolchain=hardened --libdir=/usr/lib/x86_64-linux-gnu --incdir=/usr/include/x86_64-linux-gnu --arch=amd64 --enable-gpl --disable-stripping --disable-omx --enable-gnutls --enable-libaom --enable-libass --enable-libbs2b --enable-libcaca --enable-libcdio --enable-libcodec2 --enable-libdav1d --enable-libflite --enable-libfontconfig --enable-libfreetype --enable-libfribidi --enable-libglslang --enable-libgme --enable-libgsm --enable-libharfbuzz --enable-libmp3lame --enable-libmysofa --enable-libopenjpeg --enable-libopenmpt --enable-libopus --enable-librubberband --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libtheora --enable-libtwolame --enable-libvidstab --enable-libvorbis --enable-libvpx --enable-libwebp --enable-libx265 --enable-libxml2 --enable-libxvid --enable-libzimg --enable-openal --enable-opencl --enable-opengl --disable-sndio --enable-libvpl --disable-libmfx --enable-libdc1394 --enable-libdrm --enable-libiec61883 --enable-chromaprint --enable-frei0r --enable-ladspa --enable-libbluray --enable-libjack --enable-libpulse --enable-librabbitmq --enable-librist --enable-libsrt --enable-libssh --enable-libsvtav1 --enable-libx264 --enable-libzmq --enable-libzvbi --enable-lv2 --enable-sdl2 --enable-libplacebo --enable-librav1e --enable-pocketsphinx --enable-librsvg --enable-libjxl --enable-shared
+  libavutil      58. 29.100 / 58. 29.100
+  libavcodec     60. 31.102 / 60. 31.102
+  libavformat    60. 16.100 / 60. 16.100
+  libavdevice    60.  3.100 / 60.  3.100
+  libavfilter     9. 12.100 /  9. 12.100
+  libswscale      7.  5.100 /  7.  5.100
+  libswresample   4. 12.100 /  4. 12.100
+  libpostproc    57.  3.100 / 57.  3.100
+Input #0, image2, from 'mov%04d.png':
+  Duration: 00:00:04.00, start: 0.000000, bitrate: N/A
+  Stream #0:0: Video: png, rgba(pc, gbr/unknown/unknown), 1920x1080, 30 fps, 30 tbr, 30 tbn
+Stream mapping:
+  Stream #0:0 -> #0:0 (png (native) -> h264 (libx264))
+Press [q] to stop, [?] for help
+[libx264 @ 0x5a2aa761ea80] using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX FMA3 BMI2 AVX2 AVX512
+[libx264 @ 0x5a2aa761ea80] profile High, level 4.0, 4:2:0, 8-bit
+[libx264 @ 0x5a2aa761ea80] 264 - core 164 r3108 31e19f9 - H.264/MPEG-4 AVC codec - Copyleft 2003-2023 - http://www.videolan.org/x264.html - options: cabac=1 ref=3 deblock=1:0:0 analyse=0x3:0x113 me=hex subme=7 psy=1 psy_rd=1.00:0.00 mixed_ref=1 me_range=16 chroma_me=1 trellis=1 8x8dct=1 cqm=0 deadzone=21,11 fast_pskip=1 chroma_qp_offset=-2 threads=34 lookahead_threads=5 sliced_threads=0 nr=0 decimate=1 interlaced=0 bluray_compat=0 constrained_intra=0 bframes=3 b_pyramid=2 b_adapt=1 b_bias=0 direct=1 weightb=1 open_gop=0 weightp=2 keyint=250 keyint_min=25 scenecut=40 intra_refresh=0 rc_lookahead=40 rc=crf mbtree=1 crf=10.0 qcomp=0.60 qpmin=0 qpmax=69 qpstep=4 ip_ratio=1.40 aq=1:1.00
+Output #0, mp4, to '../02_hotspot_highlighted.mp4':
+  Metadata:
+    encoder         : Lavf60.16.100
+  Stream #0:0: Video: h264 (avc1 / 0x31637661), yuv420p(tv, progressive), 1920x1080, q=2-31, 30 fps, 15360 tbn
+    Metadata:
+      encoder         : Lavc60.31.102 libx264
+    Side data:
+      cpb: bitrate max/min/avg: 0/0/0 buffer size: 0 vbv_delay: N/A
+frame=    0 fps=0.0 q=0.0 size=       0kB time=N/A bitrate=N/A speed=N/A    
+[out#0/mp4 @ 0x5a2aa761d300] video:5938kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.038832%
+frame=  120 fps=0.0 q=-1.0 Lsize=    5940kB time=00:00:03.90 bitrate=12476.9kbits/s speed=8.21x    
+[libx264 @ 0x5a2aa761ea80] frame I:1     Avg QP: 1.37  size: 50079
+[libx264 @ 0x5a2aa761ea80] frame P:30    Avg QP: 9.07  size: 60540
+[libx264 @ 0x5a2aa761ea80] frame B:89    Avg QP:14.60  size: 47339
+[libx264 @ 0x5a2aa761ea80] consecutive B-frames:  0.8%  0.0%  2.5% 96.7%
+[libx264 @ 0x5a2aa761ea80] mb I  I16..4: 92.9%  0.1%  7.0%
+[libx264 @ 0x5a2aa761ea80] mb P  I16..4:  0.7%  0.1%  6.3%  P16..4:  1.2%  1.1%  1.4%  0.0%  0.0%    skip:89.2%
+[libx264 @ 0x5a2aa761ea80] mb B  I16..4:  0.0%  0.0%  1.9%  B16..8:  1.5%  2.0%  4.3%  direct: 0.4%  skip:89.9%  L0:36.5% L1:32.2% BI:31.3%
+[libx264 @ 0x5a2aa761ea80] 8x8 transform intra:1.0% inter:3.4%
+[libx264 @ 0x5a2aa761ea80] coded y,uvDC,uvAC intra: 71.6% 1.1% 1.0% inter: 4.6% 0.1% 0.1%
+[libx264 @ 0x5a2aa761ea80] i16 v,h,dc,p: 95%  2%  3%  0%
+[libx264 @ 0x5a2aa761ea80] i8 v,h,dc,ddl,ddr,vr,hd,vl,hu: 14% 11% 41%  5%  4%  5%  5%  8%  7%
+[libx264 @ 0x5a2aa761ea80] i4 v,h,dc,ddl,ddr,vr,hd,vl,hu: 16% 13% 10%  8% 10% 11% 10% 11% 10%
+[libx264 @ 0x5a2aa761ea80] i8c dc,h,v,p: 99%  0%  1%  0%
+[libx264 @ 0x5a2aa761ea80] Weighted P-Frames: Y:16.7% UV:10.0%
+[libx264 @ 0x5a2aa761ea80] ref P L0: 59.4% 11.9% 17.0% 10.1%  1.7%
+[libx264 @ 0x5a2aa761ea80] ref B L0: 88.2%  9.3%  2.5%
+[libx264 @ 0x5a2aa761ea80] ref B L1: 96.1%  3.9%
+[libx264 @ 0x5a2aa761ea80] kb/s:12158.84
+ produce: finished.
+PyMOL>alter target, b=0.0
+PyMOL>alter target and resn ILE, b=4.5
+PyMOL>alter target and resn VAL, b=4.2
+PyMOL>alter target and resn LEU, b=3.8
+PyMOL>alter target and resn PHE, b=2.8
+PyMOL>alter target and resn CYS, b=2.5
+PyMOL>alter target and resn MET, b=1.9
+PyMOL>alter target and resn ALA, b=1.8
+PyMOL>alter target and resn GLY, b=-0.4
+PyMOL>alter target and resn THR, b=-0.7
+PyMOL>alter target and resn SER, b=-0.8
+PyMOL>alter target and resn TRP, b=-0.9
+PyMOL>alter target and resn TYR, b=-1.3
+PyMOL>alter target and resn PRO, b=-1.6
+PyMOL>alter target and resn HIS, b=-3.2
+PyMOL>alter target and resn GLU, b=-3.5
+PyMOL>alter target and resn GLN, b=-3.5
+PyMOL>alter target and resn ASP, b=-3.5
+PyMOL>alter target and resn ASN, b=-3.5
+PyMOL>alter target and resn LYS, b=-3.9
+PyMOL>alter target and resn ARG, b=-4.5
+PyMOL>sort
+PyMOL>show surface, target
+PyMOL>spectrum b, blue_white_red, target, minimum=-4.5, maximum=4.5
+PyMOL>set transparency, 0.2
+PyMOL>png 03_Workspace/Portfolio_CoV2_CoV2/Run_001/01_Target_Profile/02_renders/03_hydrophobicity_surface.png, dpi=600, ray=1
+PyMOL>movie.produce 03_Workspace/Portfolio_CoV2_CoV2/Run_001/01_Target_Profile/02_renders/03_hydrophobicity_surface.mp4, quality=100
+using encoder "ffmpeg"
